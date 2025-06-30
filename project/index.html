@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصل مسابقه </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+
+
+    <link rel="stylesheet" href="assets/icons/css/font-awesome.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#131417',
+                        foreground: '#FFFFFF',
+                        green: '#47CF73',
+                        HambergurGray: '#2B2E2F',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<div class="bg-background text-foreground font-sans select-none">
+
+        <div class="flex items-start  w-full justify-center ">
+
+          <div class="md:hidden w-full mx-auto max-w-[428px] ">
+
+          <div class="px-5 py-5 flex w-full items-center justify-between  flex-row-reverse">
+
+                <div class="header-col-1 w-[30%] flex justify-start">
+                    <button class="w-[120px] h-[40px] bg-transparent text-green font-['kalameh-medium'] text-sm rounded-[7px_20px_7px_20px] border-none cursor-pointer">ثبت نام / ورود</button>
+                </div>
+                
+                <div class="w-[40%] flex justify-center">
+
+                    <img src="assets/images/logo/logo.png" class="w-1/2 mt-5">
+
+                </div>
+
+                <div class="w-[30%] flex justify-end">
+                    <div id="menu-toggle" class="hamburger-menu flex flex-col justify-between w-[30px] h-[20px] cursor-pointer">
+                        <span class="w-full h-[3px] bg-foreground rounded"></span>
+                        <span class="w-full h-[3px] bg-foreground rounded"></span>
+                        <span class="w-full h-[3px] bg-foreground rounded"></span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <nav id="mobile-menu" class="hidden fixed top-16 left-1/2 transform -translate-x-1/2 w-[405px] h-[304px] bg-HambergurGray z-10 flex-shrink-0">
+                 <ul class="flex flex-col p-4">
+                         <li class="p-2">
+                        <a href="#contact" class="font-['kalameh-medium'] text-foreground text-base">تماس با ما <i class="fa fa-angle-down"></i></a>
+                            </li>
+                     <li class="p-2">
+                        <a href="#about" class="font-['kalameh-medium'] text-foreground text-base">درباره ما</a>
+                        </li>
+                      <li class="p-2">
+                         <a href="#home" class="font-['kalameh-medium'] text-foreground text-base">خانه</a>
+                      </li>
+                 </ul>
+               </nav>
+
+
+            <div class="flex items-center justify-start w-full px-5 relative ml-[80px]">
+                <div class="w-full px-5 text-right">
+                    <h1 class="font-['kalameh-bold'] text-foreground leading-[40px] text-2xl">
+                        پنجمین دوره مسابقه برنامه‌نویسی آنلاین دانشگاه دولتی بجنورد 🚀
+                    </h1>
+                    <h5 class="font-['kalameh-medium'] text-foreground text-sm">
+                        ۱۲ الی ۲۰ اسفند ۱۴۰۰ به صورت غیر حضوری و آنلاین
+                    </h5>
+                    <p class="font-['kalameh-thin'] text-foreground text-xs leading-[18px]">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است...
+                    </p>
+                    <div class="flex items-center relative ml-[150px]">
+                        <button class="w-[120px] h-[40px] bg-transparent text-foreground border border-green rounded-[0_15px_0_15px] font-['kalameh-medium'] text-sm cursor-pointer">ثبت نام کنید</button>
+                        <button class="watch w-fit h-[25px] bg-transparent text-foreground font-['kalameh-medium'] text-sm flex items-center ml-2">
+                            <i class="fa fa-play bg-green text-background p-2 rounded-full mr-1"><img src="assets/images/video.png" class="w-[10px] h-[10px]"></i> مشاهده ویدئو
+                        </button>
+                    </div>
+
+               
+                
+                </div>
+
+            </div>
+
+
+
+            <div class="border-t border-white/20 flex justify-around py-5">
+                <div class="text-center flex flex-col items-center">
+                    <p class="font-['kalameh-thin'] text-foreground text-xs flex items-center"> برگزار کنندگان <img src="assets/images/icons/user.png" class="w-5 ml-1"> </p>
+                    <p class="font-['kalameh-thin'] text-foreground text-xs">28</p>
+                </div>
+                <div class="text-center flex flex-col items-center">
+                    <p class="font-['kalameh-thin'] text-foreground text-xs flex items-center"> حامیان برنامه <img src="assets/images/icons/work.png" class="w-5 ml-1"> </p>
+                    <p class="font-['kalameh-thin'] text-foreground text-xs">08</p>
+                </div>
+
+                <div class="text-center flex flex-col items-center">
+                    <p class="font-['kalameh-thin'] text-foreground text-xs flex items-center"> ثبت کنندگان <img src="assets/images/icons/education.png" class="w-5 ml-1"></p>
+                    <p class="font-['kalameh-thin'] text-foreground text-xs">04</p>
+                </div>
+
+
+            </div>
+
+            <div class=" my-5 border-white[/20] w-full "></div>
+            
+            <div class="flex justify-center w-full">
+                <img src="assets/images/banner/sponser.png" class="w-full max-w-[428px]">
+
+            </div>
+
+            <div class="w-full px-5 flex justify-start">
+
+                <div class="w-full max-w-[428px]">
+
+                    <div class="relative text-center">
+
+                        <p class="font-['kalameh-medium'] text-right text-foreground text-lg mb-5 ">نحوه برگزاری مسابقه</p>
+                        <img src="assets/images/banner/Line31.png" class="path-line w-[5px] h-[400px] block mx-auto">
+                        <div class="path-right absolute flex items-center w-full top-[35px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">1</span>
+                            <span class="font-['kalameh-thin'] text-foreground text-xs mr-5 right-1/2 absolute">پاسخ به سوال</span>
+                        </div>
+
+                        <div class="path-left absolute flex items-start w-full top-[120px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">2</span>
+                            <span class="step-text font-['kalameh-thin'] text-foreground text-xs ml-5 left-1/2 absolute">ثبت نام</span>
+                        </div>
+
+                        <div class="path-right absolute flex items-start w-full top-[190px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">3</span>
+                            <span class="step-text font-['kalameh-thin'] text-foreground text-xs mr-5 right-1/2 absolute">افتتاحیه و مرحله مقدماتی</span>
+                        </div>
+
+                        <div class="path-left absolute flex items-center w-full top-[260px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">4</span>
+                            <span class="font-['kalameh-thin'] text-foreground text-xs ml-5 left-1/2 absolute">مرحله نهایی</span>
+                        </div>
+
+
+                        <div class="path-step path-right absolute flex items-center w-full top-[335px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">5</span>
+                            <span class="font-['kalameh-thin'] text-foreground text-xs mr-5 right-1/2 absolute">مرحله انتخاب نفر اول</span>
+                        </div>
+
+
+                        <div class="path-left absolute flex items-center w-full top-[400px]">
+                            <span class="circle absolute left-1/2 -translate-x-1/2 w-2 h-2 bg-[#FFB149] text-background rounded-full text-[3px] leading-4">6</span>
+                            <span class="font-['kalameh-thin'] text-foreground text-xs ml-5 left-1/2 absolute">اختتامیه</span>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="flex justify-center py-5">
+
+
+                <button class="w-[120px] h-[40px] bg-green text-background font-['kalameh-medium'] text-sm rounded-[0_15px_0_15px] border-none cursor-pointer">ثبت نام</button>
+            </div>
+
+
+            <div class="w-full px-5 flex flex-col justify-start">
+
+                <h2 class="text-right font-['kalameh-medium'] text-foreground text-lg mb-5 ">اطلاعات مسابقه</h2>
+
+
+                <div class="flex flex-row gap-2 w-full justify-start">
+                    <div class="bg-[rgba(255,255,255,0.1)] rounded-lg p-2 text-center w-[126px] h-[168px] flex flex-col justify-between">
+                        <img src="assets/images/cards/prizes.png" class="w-full h-[60px] object-cover rounded-lg mb-1">
+                        <h3 class="font-['kalameh-medium'] text-foreground text-xs relative ml-[30px]">جوایز مسابقه</h3>
+                       
+                        <button class="more-button w-[80px] h-[30px] bg-transparent text-foreground border border-foreground rounded-[0_15px_0_15px] font-['kalameh-medium'] text-[10px] mt-1 cursor-pointer relative ml-[30px]">بیشتر</button>
+                    </div>
+
+
+                    <div class="bg-[rgba(255,255,255,0.1)] rounded-lg p-2 text-center w-[126px] h-[168px] flex flex-col justify-between">
+                        <img src="assets/images/cards/goals.png" alt="اهداف رویداد" class="w-full h-[60px] object-cover rounded-lg mb-1">
+                        <h3 class="font-['kalameh-medium'] text-foreground text-xs relative ml-[30px]">اهداف رویداد</h3>
+                        <button class="w-[80px] h-[30px] bg-transparent text-foreground border border-foreground rounded-[0_15px_0_15px] font-['kalameh-medium'] text-[10px] mt-1 cursor-pointer relative ml-[30px]">بیشتر</button>
+                    </div>
+
+
+                    <div class="bg-[rgba(255,255,255,0.1)] rounded-lg p-2 text-center w-[126px] h-[168px] flex flex-col justify-between">
+                        <img src="assets/images/cards/rules.png" alt="قوانین مسابقه" class="w-full h-[60px] object-cover rounded-lg mb-1">
+                        <h3 class="font-['kalameh-medium'] text-foreground text-xs relative ml-[30px]">قوانین مسابقه</h3>
+                        <button class="w-[80px] h-[30px] bg-transparent text-foreground border border-foreground rounded-[0_15px_0_15px] font-['kalameh-medium'] text-[10px] mt-1 cursor-pointer relative ml-[30px]">بیشتر</button>
+                    </div>
+
+
+                </div>
+
+                <div class="flex flex-row gap-2 justify-start w-full mt-5">
+                    <div class="bg-[rgba(255,255,255,0.1)] rounded-lg p-2 text-center w-[126px] h-[168px] flex flex-col justify-between relative mr-5">
+                        <h3 class="font-['kalameh-medium'] text-foreground text-base">مزایا شرکت در مسابقه</h3>
+                        <button class="w-[80px] h-[30px] bg-transparent text-foreground border border-foreground rounded-[0_15px_0_15px] font-['kalameh-medium'] text-[10px] mt-1 cursor-pointer">بیشتر</button>
+                    </div>
+                    <div class="bg-[rgba(255,255,255,0.1)] rounded-lg p-2 text-center w-full max-w-[300px] flex flex-col justify-between items-center relative mr-5">
+                        <h3 class="font-['kalameh-medium'] text-foreground text-base">✌🏻 همین حالا شروع کن</h3>
+                        <p class="font-['kalameh-thin'] text-foreground text-xs leading-[18px] text-center my-2">
+                            لورم ایپسوم متن ساختگی<br>با تولید سادگی نامفهوم
+                        </p>
+                        <button class="w-[80px] h-[30px] bg-transparent text-foreground border border-foreground rounded-[0_15px_0_15px] font-['kalameh-medium'] text-[10px] mt-1 cursor-pointer">ثبت نام</button>
+                    </div>
+
+                </div>
+
+                <div class="w-full px-5 flex justify-start">
+                    <div class="w-full max-w-[428px] flex flex-wrap">
+                        <p class="text-right font-['kalameh-medium'] text-foreground text-lg mb-5 w-full ">گالری تصاویر</p>
+                        <div class="w-[50%] p-[5px]">
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-1.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-2.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-3.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-4.png" class="w-full rounded-lg"></span>
+                        </div>
+
+                        <div class="w-[50%] p-[5px]">
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-5.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-6.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-7.png" class="w-full rounded-lg"></span>
+                            <span class="mb-2"><img src="assets/images/gallery/gallery-8.png" class="w-full rounded-lg"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="w-full px-5 flex justify-start">
+                    <div class="w-full max-w-[428px] flex flex-wrap">
+                        <p class="font-['kalameh-medium'] text-foreground text-lg mb-5 w-full text-right">تیم ما</p>
+                        <div class="w-[50%] p-[5px]">
+                            <span class="mb-5 text-center">
+                                <img src="assets/images/team/team-4.png" class="w-full max-w-[180px] rounded-none">
+                                <p class="font-['kalameh-medium'] text-foreground text-sm mt-1">محمد اصفهانی</p>
+                                <p class="font-['kalameh-thin'] text-foreground text-xs">طراح رابط</p>
+                                <div class="flex justify-center mt-4">
+                                    <img src="assets/images/icons/ITL.png" class="w-auto mt-10">
+                                </div>
+
+                            </span>
+
+                            <span class="mb-5 text-center">
+                                <img src="assets/images/team/team-4.png" class="w-full max-w-[180px] rounded-none">
+                                <p class="font-['kalameh-medium'] text-foreground text-sm mt-1">حامد جعفری</p>
+                                <p class="font-['kalameh-thin'] text-foreground text-xs">طراح رابط کاربری</p>
+                                <div class="flex justify-center mt-4">
+                                    <img src="assets/images/icons/ITL.png" class="w-auto mt-10">
+                                </div>
+                            </span>
+                        </div>
+
+
+                        <div class="w-[50%] p-[5px]">
+
+                            <span class="mb-5 text-center">
+                                <img src="assets/images/team/team-4.png" class="w-full max-w-[180px] rounded-none">
+                                <p class="font-['kalameh-medium'] text-foreground text-sm mt-1">دکتر کیانی</p>
+                                <p class="font-['kalameh-thin'] text-foreground text-xs">طراح ست</p>
+                                <div class="flex justify-center mt-4">
+                                    <img src="assets/images/icons/ITL.png" class="w-auto mt-10">
+                                </div>
+
+                            </span>
+
+                            <span class="mb-5 text-center">
+                                <img src="assets/images/team/team-4.png" class="w-full max-w-[180px] rounded-none">
+                                <p class="font-['kalameh-medium'] text-foreground text-sm mt-1">دکتر کیانی</p>
+                                <p class="font-['kalameh-thin'] text-foreground text-xs">طراح سوالات</p>
+                                <div class="flex justify-center mt-4">
+                                    <img src="assets/images/icons/ITL.png" class="w-auto mt-10">
+                                </div>
+
+                            </span>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col items-center my-10 text-foreground font-['kalameh-medium'] text-sm">
+                    <div class="flex justify-between w-full max-w-[428px] px-5 mb-2">
+                        <div class="flex items-center gap-1">
+                            <img src="assets/icons/email.png" class="w-3">
+
+                            <span class="font-['kalameh-thin'] text-sm">nima.akbari@gmail.com</span>
+
+                        </div>
+
+                        <div class="flex items-center gap-1">
+
+                            <img src="assets/icons/phone.png" class="w-3">
+
+                            <span class="font-['kalameh-thin'] text-sm">091256899856</span>
+                        </div>
+
+                    </div>
+
+                    <p class="font-['kalameh-medium']">تمام حقوق برای تیم پارشوماش محفوظ است</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="hidden md:flex md:items-start md:justify-center md:w-full">
+
+            <div class=" justify-center h-screen w-[10%] flex items-start ">
+
+                <img src="assets/images/logo/logo.png" class="w-[40%] mt-8">
+            </div>
+            <div class="w-[90%] border-r border-r-[rgba(255,255,255,0.288)]">
+
+                <div class="p-10 flex justify-center items-center  w-full h-fit">
+
+                    <div class="w-[80%] h-full">
+
+                        <nav>
+                            <ul class="p-0 mr-[60px]">
+                                <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                    <a class="font-['kalameh-medium']">خانه</a>
+                              </li>
+                            <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                 <a class="font-['kalameh-medium']">درباره ما</a>
+                                </li>
+                              <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                    <a class="font-['kalameh-medium']">تماس باما <i class="fa fa-angle-down"></i></a>
+                              </li>
+                     </ul>
+                </nav>
+          
+            </div>
+
+                    <div class="w-[20%] flex items-center justify-center">
+
+                        <button class="cursor-pointer w-[156px] h-[45.54px] font-['kalameh-medium'] text-sm bg-green rounded-[7px_20px_7px_20px] border-0 shadow-[1px_1px_14px_1px_#47CF73] text-black">
+                            ثبت نام / ورود
+                        </button>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center w-full p-[0_50px_50px_50px]">
+
+                    <div class="w-[50%] p-[0_40px]">
+
+                          <h1 class="font-['kalameh-bold'] leading-[70px] text-[40px]">پنجمین دوره مسابقه برنامه نویسی آنلاین دانشگاه دولتی بجنورد 🚀</h1>
+
+                       <h5 class="font-['kalameh-medium'] text-[18px]">۱۲ الی ۲۰ اسفند ۱۴۰۰ به صورت غیر حضوری و آنلاین</h5>
+                <p class="font-['kalameh-thin'] text-[15px] leading-[20px]">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                            مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                            درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری
+                            را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+                       
+                           </p>
+                  <button class=" h-[45px] w-[156px] bg-transparent border border-green rounded-[0_20px_0_20px] font-['kalameh-medium'] text-sm shadow-[1px_1px_16px_1px_rgba(71,207,115,0.12)]">
+                            ثبت نام کنید
+                        </button>
+                     
+                        <button class="text-sm w-fit h-[28px] mr-[10px] font-['kalameh-medium']">
+                    
+                            <i class="fa fa-play bg-green text-background p-[10px] rounded-full"></i> مشاهده ویدئو
+                     
+                        </button>
+                     
+                     
+                   <div class="box mt-10 border-t border-t-[rgba(255,255,255,0.2)] flex items-center justify-around">
+                      
+                    <div>
+                                <p class="text-center flex items-center justify-around">
+
+                                    <img src="assets/images/icons/education.png" class="mr-[5px]"> ثبت کنندگان
+                       
+                                </p>
+                      
+                                <p class="text-center">28</p>
+                      
+                            </div>
+                      
+                   
+                   
+                            <div>
+
+                                <p class="text-center flex items-center justify-around">
+
+                                    <img src="assets/images/icons/work.png" class="mr-[5px]"> حامیان برنامه
+                                </p>
+                                <p class="text-center">08</p>
+                         
+                            </div>
+                         
+                            <div>
+                                <p class="text-center flex items-center justify-around">
+
+                                    <img src="assets/images/icons/user.png" class="mr-[5px]"> برگزار کنندگان
+                                </p>
+                                <p class="text-center">04</p>
+                            </div>
+                   
+                        </div>
+                 
+                    </div>
+            <div class="relative content-container-col-2 w-[50%] flex items-center justify-center ">
+
+                        <img src="assets/images/banner/banner.png" class="banner w-[300px]">
+                        <img src="assets/images/banner/code.png" class="code w-[300px] absolute right-0 bottom-0 mb-[-40px]">
+                        <img src="assets/images/icons/c-plus-plus.png" class="c w-[80px] absolute right-0 mr-[-30px] bottom-[50px]">
+                  
+                    </div>
+                
+                   </div>
+               
+             <div class="relative sponser-container flex items-center justify-center ">
+
+                    <img src="assets/images/banner/sponser.png">
+               
+                </div>
+              
+                <div class=" w-full p-0 flex items-center justify-center">
+                    <div class="w-[1200px] p-0 flex items-center justify-center relative">
+                        <div class="w-[60%] flex items-center justify-center relative">
+                            <img src="assets/images/banner/path.png" class="w-[1200px]">
+
+                            <p class="path-title font-['kalameh-medium'] absolute right-[40px] top-[40px]">نحوه برگزاری مسابقه</p>
+                            <p class="path-1 font-['kalameh-thin'] absolute left-0 top-[170px] cursor-pointer">پاسخ به سوال</p>
+                            <p class="path-2 font-['kalameh-thin'] absolute top-[180px] left-[310px] cursor-pointer">ثبت نام</p>
+                           
+                            <p class="path-3 font-['kalameh-thin'] absolute top-[380px] left-[-20px] cursor-pointer">افتتاحیه و مرحله مقدماتی</p>
+                            <p class="path-4 font-['kalameh-thin'] absolute top-[270px] right-[120px] cursor-pointer">مرحله نهایی</p>
+                            <p class="path-5 font-['kalameh-thin'] absolute top-[525px] left-[140px] cursor-pointer">مرحله انتخاب نفر اول</p>
+                            <p class="path-6 font-['kalameh-thin'] absolute top-[485px] right-[-40px] cursor-pointer">اختتامیه</p>
+                 
+                        </div>
+                
+
+                 </div>
+            
+                </div>
+             
+                <div class="flex items-center justify-center w-full">
+
+                    <img src="assets/images/banner/information.png" class="w-[1200px]">
+
+                
+                </div>
+              
+                <div class="flex items-center justify-center w-full">
+                    <div class="w-[1200px] p-[20px_60px]">
+                        <p class="font-['kalameh-medium'] text-[32px] mb-[50px]">گالری تصاویر</p>
+                        <div class="flex items-center justify-center w-full">
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-1.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                            </span>
+
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-2.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                            </span>
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-3.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                            </span>
+
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-4.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                    
+                            </span>
+                   
+                        </div>
+                    
+                    
+                    <div class="flex items-center justify-center w-full">
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-5.png">
+                          <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                            </span>
+                    
+                     <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-6.png">
+                     
+                               <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                 
+                     </span>
+                  
+                           <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-7.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                            </span>
+                    
+                            <span class="relative w-[300px] flex items-center justify-center transition-all">
+                                <span class="back-d w-full h-full transition-all bg-[rgba(0,0,0,0.626)] opacity-0 absolute"></span>
+                                <img src="assets/images/gallery/gallery-8.png">
+                                <img class=" absolute opacity-0 w-0 transition-all cursor-pointer" src="assets/images/icons/plus.png">
+                  
+                       </span>
+                    
+                        </div>
+                  
+         </div>
+              
+            
+             </div>
+              
+ 
+              <div class="team-container flex items-center justify-center w-full">
+                <div class="team-container-child w-[1200px] p-[20px_60px]">
+                    <p class="team-title font-['kalameh-medium'] text-[32px] mb-[50px]">تیم ما</p>
+                    <div class="flex items-center justify-center w-full">
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-1.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+
+                            </span>
+
+
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">علی دایی</p>
+                                <p>رهبر تیم</p>
+                            </span>
+
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-2.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">عباس قدرتی</p>
+                                <p>توسعه دهنده تازه کار</p>
+                            </span>
+
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-3.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">وریا غفوری</p>
+                                <p>طراح رابط کاربری</p>
+                            </span>
+
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-1.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">جادی میرمیرانی </p>
+                                <p>متخصص استایلینگ</p>
+                            </span>
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-2.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">نیما اکبری</p>
+                                <p>مسئول بهینه سازی</p>
+                            </span>
+                        </span>
+
+
+
+                    </div>
+                    <div class="flex items-center justify-center w-full">
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-1.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">جادی میرمیرانی </p>
+                                <p>مسئول تست رابط کاربری</p>
+                            </span>
+
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-2.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px ] mb-5">کیان پیرفلک</p>
+                                <p>توسعه دهنده ارشد</p>
+                            </span>
+
+
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-3.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">حمید صمدی</p>
+                                <p>متخصص توسعه کامپوننت</p>
+                            </span>
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-1.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                         
+                            </span>
+
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="font-['kalameh-medium'] text-[24px] mb-5">سعید آقایی</p>
+                                <p>توسعه دهنده ارشد</p>
+                            </span>
+                        </span>
+
+                        <span class="w-[250px] m-[10px] transition-all relative flex items-center justify-center group">
+                            <span class="back-d w-full h-full bg-[rgba(0,0,0,0.457)] opacity-0 transition-all group-hover:opacity-100"></span>
+                            <img src="assets/images/team/team-2.png" class="w-full">
+                            <span class="sp-child-1 absolute top-[110px] text-xl w-[80%] flex items-center justify-around opacity-0 transition-all group-hover:opacity-100">
+                                <i class="fa fa-linkedin-square cursor-pointer"></i>
+                                <i class="fa fa-telegram cursor-pointer"></i>
+                                <i class="fa fa-instagram cursor-pointer"></i>
+                            </span>
+                            <span class="sp-child-2 font-['kalameh-thin'] text-[18px] leading-[10px] text-center absolute bottom-[20px] opacity-0 transition-all group-hover:opacity-100">
+                                <p class="relative font-['kalameh-medium'] text-[24px] mb-5">فرهاد اکبری</p>
+                                <p>توسعه دهنده تازه کار</p>
+                            </span>
+                       
+                          </span>
+                   
+                    </div>    
+            </div>
+        
+       </div>
+             
+
+              
+        <div class=" flex items-center justify-center w-full">
+              <div class=" w-[1200px]">
+                      
+                        <p class="contact-title font-['kalameh-medium'] text-[32px] mb-[50px]">تماس باما</p>
+               
+                          <div class=" w-full flex items-center justify-center font-['kalameh-thin']">
+              
+                            <div class="contact-item flex items-center justify-center w-[450px] h-[70px] mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] transition-all">
+                                <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg">
+             
+                                    <i class="fa fa-phone"></i>
+             
+                                </div>
+             
+                                <div class="key w-[35%] flex items-center justify-start pr-[10px]">
+                                    <p>شماره کارشناس</p>
+                                </div>
+                         
+                                <div class="value w-[50%] flex items-center justify-end pl-[10px]">
+                      
+                                    <p>0912498952</p>
+                                </div>
+                   
+                            </div>
+                   
+                            <div class=" flex items-center justify-center w-[450px] h-[70px] mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] bg-green transition-all">
+                                <div class=" w-[15%] flex items-center justify-center cursor-pointer text-lg">
+                                    <i class="fa fa-inbox"></i>
+                                </div>
+                                <div class="key w-[35%] flex items-center justify-start pr-[10px]">
+                                    <p>ایمیل</p>
+                                </div>
+                                <div class="value w-[50%] flex items-center justify-end pl-[10px]">
+
+                           nima.akbari.mufc@gmail.com
+                                </div>
+                        
+                            </div>
+                     
+                           
+                            <div class="flex items-center justify-center w-[450px] h-[70px] mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] transition-all">
+                                <div class=" w-[15%] flex items-center justify-center cursor-pointer text-lg">
+                    
+                                    <i class="fa fa-instagram"></i>
+                                </div>
+                  
+                                <div class="key w-[35%] flex items-center justify-start pr-[10px]">
+                                    <p>اینستاگرام</p>
+                 
+                                </div>
+                 
+                                <div class="value w-[50%] flex items-center justify-end pl-[10px]">
+                                    <p>@nim.akbari</p>
+                           
+                                </div>
+                    
+
+                   
+                 </div>
+                  
+                  
+                  </div>
+                  
+                  </div>
+               
+               
+               
+             </div>
+             
+             
+             <div class="flex items-center justify-center my-[60px] font-['kalameh-medium']">
+             
+                <p>تمام حقوق برای تیم پارشوماش محفوظ است</p>
+           
+        
+         
+             </div>
+
+            </div>
+      
+      
+        </div>
+       
+        <img class=" absolute w-[800px] left-0 top-0 -z-10 hidden md:block" src="assets/images/banner/background.png">
+    </div>
+   
+
+
+
+   <script>
+
+        document.getElementById('menu-toggle').onclick = () => 
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+    </script>
+
+</div>
+
+</html>

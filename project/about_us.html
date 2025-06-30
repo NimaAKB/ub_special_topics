@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: '#131417',
+            foreground: '#FFFFFF',
+            green: '#47CF73',
+            HambergurGray: '#2B2E2F',
+          }
+        }
+      }
+    }
+  </script>
+
+
+
+
+         <link rel="stylesheet" href="assets/css/fonts.css">
+         <link rel="stylesheet" href="assets/icons/css/font-awesome.min.css">
+    <title>صفحه مسابقه</title>
+ </head>
+
+<body>
+
+   <div class="bg-background min-h-screen  text-foreground">
+    <header class="flex justify-between items-center px-8 py-4">
+
+      <div class="md:hidden flex items-center justify-end">
+
+        <button id="menu-toggle" class="text-foreground focus:outline-none">
+
+          <i class="fa fa-bars text-2xl"></i>
+        </button>
+        <nav id="mobile-menu" class="hidden absolute top-16 right-0 w-64 bg-HambergurGray z-10">
+
+          <ul class="flex flex-col p-4">
+            <li class="p-2">
+
+              <button class="font-[kalameh-medium] text-foreground">خانه</button>
+            </li>
+            <li class="p-2">
+              <button class="font-[kalameh-medium] text-foreground">درباره ما</button>
+                    </li>
+            <li class="p-2">
+
+              <button class="font-[kalameh-medium] text-foreground">تماس باما <i class="fa fa-angle-down"></i></button>
+
+            </li>
+
+          </ul>
+
+        </nav>
+
+      </div>
+
+      <div class=" justify-center flex">
+        <img src="Logo.png" class="w-16 md:hidden h-auto object-contain">
+        
+      </div>
+
+
+      <div class="hidden md:flex items-center  w-[80%] h-full gap-4">
+
+          <nav class="justify-start">
+          <ul class="p-0 ml-[60px]">
+            <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+
+              <button class="text-foreground font-[kalameh-medium] text-foreground">خانه</button>
+            
+            </li>
+            <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+
+              <button class="font-[kalameh-medium] text-foreground">درباره ما</button>
+
+            </li>
+
+            <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+
+              <button class="font-[kalameh-medium] text-foreground">تماس باما <i class="fa fa-angle-down"></i></button>
+
+            </li>
+
+           </ul>
+
+           </nav>
+    
+      </div>
+
+
+
+        <div class="justify-end hidden md:flex" >
+
+             <button class="text-black w-[155px] h-[45px] font-[kalameh-medium] text-sm rounded-[7px_20px_7px_20px] shadow-[1px_1px_14px_1px_#47CF73] bg-green flex items-center justify-center ">
+                
+              <span>ثبت نام /ورود</span>
+       </div>
+
+
+      <div class="md:hidden flex justify-start items-center ">
+        <button class="text-white w-[155px] h-[45px] font-[kalameh-medium] text-sm rounded-[7px_20px_7px_20px]  bg-background flex items-center justify-center">
+          <span class="text-green">برگشت</span>
+          <img src="Arrow - green.png" class="mr-2 w-[20px]">
+        </button>
+      </div>
+    </header>
+
+
+
+          
+    <section class=" mx-auto px-4 py-8 max-w-6xl">
+
+      <div class="relative">
+        <img src="G1.jpg" class="w-full md:w-[1019px] h-auto md:h-[305.951px] object-cover">
+        <img src="Rectangle 15.png" class="absolute top-[220px] right-[50px] md:right-[922px] w-auto h-auto hidden md:block">
+        <img src="Rectangle 14.png" class="absolute top-[-35px] right-[-35px] w-auto h-auto">
+      </div>
+
+      <div class="mt-[34px]">
+        <h2 class="w-[213px] h-[44px] flex-shrink-0 text-right text-foreground text-[32px] font-bold leading-none font-[kalameh-medium] text-foreground">درباره ما</h2>
+      </div>
+
+      <p class="text-gray-300 leading-loose">
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+      </p>
+
+    </section>
+
+    <div class="py-6 mt-10 bg-background">
+
+      <div class="max-w-5xl mx-auto px-4 relative">
+
+        <img src="Rectangle 4.png" class="w-full md:w-[1007.117px] h-auto md:h-[92px] flex-shrink-0 relative">
+        <img src="Rectangle 15.png" class="absolute top-[5px] right-[50px] md:right-[907px] w-auto h-auto hidden md:block">
+        <img src="R13.png" class="absolute top-[-34px] right-[-19px] w-auto h-auto">
+        <div class="absolute flex flex-col md:flex-row justify-between w-full mix-blend-luminosity -mt-16 relative">
+
+          <img src="snappTextLogo 1.png" class="w-[87px] h-[25px] flex-shrink-0 relative mb-2 md:mb-0 hidden md:block">
+        <img src="Park.png" class="w-[76px] h-[75px] flex-shrink-0 relative mb-2 md:mb-0">
+      <img src="Cart.png" class="w-[115px] h-[28px] flex-shrink-0 relative mb-2 md:mb-0 hidden md:block">
+     <img src="Daneshga.png" class="w-[119px] h-[44px] flex-shrink-0 relative mb-2 md:mb-0 hidden md:block">
+   <img src="Amigh.png" class="w-[178.364px] h-[52px] flex-shrink-0 relative hidden md:block">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="border-t border-gray-700 py-6 mt-8">
+
+      <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center font-[kalameh-thin] gap-4 md:gap-0">
+
+
+       
+        <div class=" flex items-center justify-center w-full md:w-[347px] h-[64px] rounded-[10px] border border-[rgba(255,255,255,0.242)] bg-background transition-all order-3 md:order-1">
+          <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg text-foreground">
+            <i class="fa fa-phone"></i>
+          </div>
+
+          <div class="key w-[35%] flex items-center justify-start pr-[10px] text-foreground">
+            <p>شماره تماس</p>
+          </div>
+          <div class="value w-[50%] flex items-center justify-end pl-[10px] text-foreground">
+            <p>0912546467</p>
+          </div>
+
+        </div>
+
+        <div class="flex items-center justify-center w-full md:w-[347px] h-[64px] rounded-[10px] mx-auto border border-[rgba(255,255,255,0.242)] bg-background md:bg-green transition-all order-1 md:order-0">
+
+          <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg">
+            <i class="fa fa-inbox"></i>
+          </div>
+
+          <div class="key w-[35%] flex items-center justify-start pr-[0px]">
+            <p>ایمیل</p>
+          </div>
+
+          <div class="value w-[50%] flex items-center justify-end pl-[0px]">
+            <p>nima.akbari@gmail.com</p>
+
+          </div>
+
+        </div>
+
+        <div class="flex items-center justify-center w-full md:w-[347px] h-[64px] rounded-[10px] border border-[rgba(255,255,255,0.242)] bg-background transition-all order-2 md:order-3">
+          <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg text-foreground">
+            <i class="fa fa-instagram"></i>
+          </div>
+
+          <div class="key w-[35%] flex items-center justify-start pr-[10px] text-foreground">
+
+            <p>اینستاگرام</p>
+          </div>
+
+          <div class="value w-[50%] flex items-center justify-end pl-[10px] text-foreground">
+
+            <p>eubcomp4</p>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+<script>
+
+document.getElementById('menu-toggle').onclick = () => 
+
+ 
+ document.getElementById('mobile-menu').classList.toggle('hidden');
+
+</script>
+
+</body>
+</html>

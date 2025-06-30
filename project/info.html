@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+   <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#131417',
+                        foreground: '#FFFFFF',
+                        green: '#47CF73',
+                        HambergurGray: '#2B2E2F',
+                    }
+                }
+            }
+      
+        }
+    
+    </script>
+    
+    <link rel="stylesheet" href="assets/css/fonts.css">
+   
+    <link rel="stylesheet" href="assets/icons/css/font-awesome.min.css">
+    <title>صفحه اصلی</title>
+</head>
+
+<body>
+
+          <div class="text-foreground bg-background ">
+        
+        <div class="flex items-start justify-center w-full">
+
+            <div class="hidden md:flex w-[10%] justify-center h-screen items-start  ">
+                <img src="assets/images/logo/logo.png" class="w-[40%] mt-8">
+            </div>
+           
+           
+            <div class="w-full md:w-[90%] md:border-r md:border-r-[rgba(255,255,255,0.288)]">
+               
+
+
+                <header class="p-4 md:p-10 flex items-center justify-between w-full h-fit">
+                  
+                    <div class="md:hidden">
+                        <button id="menu-toggle" class="text-foreground focus:outline-none">
+                            <i class="fa fa-bars text-2xl"></i>
+                        </button>
+                        
+                        
+                        <nav id="mobile-menu" class="hidden absolute top-16 right-0 w-64 bg-HambergurGray z-10">
+                            <ul class="flex flex-col p-4">
+                                <li class="p-2">
+                                    <button class="font-[kalameh-medium] text-foreground">تماس باما <i class="fa fa-angle-down"></i></button>
+                                  </li>
+
+                                 <li class="p-2">
+                                    <button class="font-[kalameh-medium] text-foreground">درباره ما</button>
+                                  </li>
+
+                           <li class="p-2">
+                                    <button class="font-[kalameh-medium] text-foreground">خانه</button>
+                             </li>
+
+
+                                   </ul>
+                        
+                                </nav>
+                    </div>
+                    
+                    <div class="justify-center flex md:hidden  ">
+                        <img src="assets/images/logo/logo.png" class="w-16">
+                    </div>
+                   
+
+                    <div class="hidden md:block w-[80%] h-full">
+                        <nav>
+                            <ul class="p-0 mr-[60px]">
+                                <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                    <button class="font-[kalameh-medium] text-foreground">خانه</button>
+                              
+                                </li>
+                              
+                                <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                     <button class="font-[kalameh-medium] text-foreground">درباره ما</button>
+                                 </li>
+                              
+                                   <li class="inline-block w-fit p-[10px_20px] border-b border-b-background transition-all">
+                                    <button class="font-[kalameh-medium] text-foreground">تماس باما <i class="fa fa-angle-down"></i></button>
+                                </li>
+                          
+                              </ul>
+                    
+                             </nav>
+                    </div>
+
+                    <div class="justify-end flex items-center  gap-4">
+                        <button class="hidden md:block text-foreground w-[155px] h-[45px] font-[kalameh-medium] bg-black rounded-[7px_20px_7px_20px] border border-green">
+                            حساب کاربری دارم
+                        </button>
+
+                        <button class="text-black w-[155px] h-[45px] font-[kalameh-medium] text-sm rounded-[7px_20px_7px_20px] shadow-[1px_1px_14px_1px_#47CF73] bg-green flex items-center justify-center">
+                            <span>برگشت</span>
+                            <img src="Arrow.png" class="mr-2 w-[20px]">
+                       
+                        </button>
+                    
+                    </div>
+                </header>
+
+
+                <div class=" flex items-center justify-center w-full">
+                   
+                    <div class="w-full md:w-[1200px] px-4">
+                        <p class="font-[kalameh-medium] text-[28px] md:text-[32px] text-center text-foreground mt-8">اطلاعات مسابقه</p>
+                        <p class="text-foreground font-[kalameh-medium] text-[18px] md:text-[20px] text-center mt-6 leading-normal">بسیار خوشحالیم که میزبان شما در این مسابقه باشیم، تمام اطلاعاتی که داری میتونی تو این زیر بدست بیاری</p>
+                   
+                    </div>
+               
+                </div>
+
+               
+                <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-5 md:grid-rows-3 gap-0 border border-gray-700 text-white text-sm bg-background mt-10 md:mt-[200px] mx-2 md:mx-0">
+              
+                  <div class="p-4 border border-gray-700">
+                        <h3 class="text-lg font-bold mb-2 text-right">مکان برگزاری :</h3>
+                        <p class="text-right">جاده ارکان</p>
+                        <p class="text-right">دولتی بجنورد - سایت دانشگاه آزاد</p>
+                     
+                        <div class="flex justify-start">
+                            <img src="Discovery.png" class="w-5 mr-2">
+                            <a class="text-green mt-2">استفاده از گوگل مپ</a>
+                       
+                        </div>
+                    
+                    </div>
+
+                 
+                    <div class="p-4 border border-gray-700">
+                        <h3 class="text-lg font-bold mb-2 text-right">زمان برگزاری :</h3>
+                        <p class="text-right">21 مهر 1404 10 صبح</p>
+                      
+                        <div class="flex justify-start">
+                            <img class="w-5 mr-2" src="Calendar.png">
+                            <a class="text-green mt-2">اضافه کردن به تقویم</a>
+                      
+                        </div>
+                    
+                    </div>
+
+
+                    <div class="p-4 border border-gray-700">
+                        <h3 class="text-lg font-bold mb-2 text-right">اطلاعات مسابقات :</h3>
+                        <p class="text-right">لورم ایسپیوم ...........</p>
+                     
+                        <div class="flex justify-end">
+                            <a class="text-green mt-2">بیشتر +</a>
+                     
+                        </div>
+                   
+                    </div>
+
+
+                    <div class="p-4 border border-gray-700">
+                        <h3 class="text-lg font-bold mb-2 text-right">قوانین مسابقه :</h3>
+                        <p class="text-right">لورم ایسپیوم ...........</p>
+                    
+                         <div class="flex justify-end">
+                            <a class="text-green mt-2">بیشتر +</a>
+                        </div>
+                  
+                    </div>
+
+
+                    <div class=" border-gray-700 p-4 border border-gray-700">
+                        <h3 class="text-lg font-bold mb-2 text-right">اهداف مسابقه :</h3>
+                        <p class="text-right">لورم ایسپیوم ...........</p>
+                      
+                        <div class="flex justify-end">
+                            <a class="text-green mt-2">بیشتر +</a>
+                       
+                        </div>
+                    
+                    </div>
+                  
+                    <div class="p-4 border border-gray-700 hidden md:flex items-center justify-center"></div>
+                
+                </div>
+
+                <footer class="flex items-center justify-center my-[60px] font-[kalameh-medium] px-4">
+                    <div class=" w-full flex flex-col md:flex-row items-center justify-center font-[kalameh-thin] gap-4 md:gap-0">
+
+
+                        <div class=" flex items-center justify-center w-full md:w-[450px] h-[70px] mx-0 md:mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] bg-background transition-all order-3 md:order-1">
+                            <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg text-foreground">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class=" w-[35%] flex items-center justify-start pr-[10px] text-foreground">
+                                <p>شماره کارشناس</p>
+                            </div>
+                            <div class="value w-[50%] flex items-center justify-end pl-[10px] text-foreground">
+                                <p>0912498952</p>
+                            </div>
+                        </div>
+                        
+                        <div class=" flex items-center justify-center w-full md:w-[450px] h-[70px] mx-0 md:mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] bg-background md:bg-green transition-all order-1 md:order-2">
+                            <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg">
+                                <i class="fa fa-inbox"></i>
+                     </div>
+
+                            <div class="w-[35%] flex items-center justify-start pr-[10px]">
+                                <p>ایمیل</p>
+                            </div>
+
+                            
+                        <div class="value w-[50%] flex items-center justify-end pl-[10px]">
+
+                             <p>nima.akbari.mufc@gmail.com</p>
+
+                          </div>
+                          
+
+                        </div>
+                        
+                        <div class="flex items-center justify-center w-full md:w-[450px] h-[70px] mx-0 md:mx-[20px] rounded-[7px] border border-[rgba(255,255,255,0.242)] bg-background transition-all order-2 md:order-3">
+                            <div class="icon w-[15%] flex items-center justify-center cursor-pointer text-lg text-foreground">
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                            <div class="w-[35%] flex items-center justify-start pr-[10px] text-foreground">
+                                <p>اینستاگرام</p>
+                            </div>
+                            <div class="w-[50%] flex items-center justify-end pl-[10px] text-foreground">
+                                <p>@nim.akbari</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+
+<script>
+
+document.getElementById('menu-toggle').onclick = () => 
+ 
+ document.getElementById('mobile-menu').classList.toggle('hidden');
+</script>
+</body>
+</html>
